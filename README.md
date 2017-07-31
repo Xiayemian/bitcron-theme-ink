@@ -1,2 +1,1 @@
-# bitcron-theme-ink
-Bitcron 主题「墨」(Ink)
+![screenshot](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ink/master/screenshot.jpg)
