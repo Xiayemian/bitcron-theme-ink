@@ -270,6 +270,9 @@ article {
 /* Modify Default Markdown Style ----------------------------*/
 .markdown {
 	margin-bottom: 50px;
+	word-break: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 .markdown a {
 	color: #e9302a;
@@ -307,11 +310,6 @@ article {
 .markdown code {
 	padding: 2px 4px;
     @include border-radius(3px);
-}
-.markdown pre code {
-	border: none;
-	font-size: inherit;
-	padding: 0;
 }
 .markdown hr {
 	border-top: 1px dotted #ddd;
@@ -610,7 +608,7 @@ section.tags {
 	}
 	main {
 		width: 100%;
-		padding: 1.5em;
+		padding: 27px;
 		border: none;
     	border-top: 1px solid #eee;
 	}
