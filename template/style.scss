@@ -321,6 +321,7 @@ article {
 .markdown table {
 	border-style: dotted;
 	border-color: #ddd;
+	word-break: break-all;
 }
 .markdown .todo_done_item {
     color: #aaa;
