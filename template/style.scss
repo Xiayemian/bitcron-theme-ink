@@ -2,7 +2,7 @@
 Theme Name: Ink
 Theme URI: https://blog.shuiba.co/bitcron-theme-ink
 Author: Shuibaco
-Author URI: https://blog.shuiba.co
+Author URI: https://shuiba.co
 MIT License: Copyright (c) 2017 Shuibaco
 */
 
@@ -31,7 +31,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: #f6f6f6;
-	font-family: 'Microsoft Jhenghei', Helvetica Neue, Helvetica, sans-serif;
+	font-family: 'Microsoft Jhenghei', 'Microsoft YaHei', Helvetica Neue, Helvetica, sans-serif;
 	line-height: 1.8em;
     word-wrap: break-word;
     color: #333;
@@ -339,6 +339,14 @@ article {
 .markdown .todo_undone_item {
     color: inherit;
 }
+.markdown h2 {
+	border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.markdown blockquote {
+	border-left: 0.4em solid #eee;
+    color: #aaa;
+}
 
 /* Comments ---------------------------------*/
 .doc_comments {
@@ -514,9 +522,11 @@ section.categories {
 			    border: 1px dotted #ddd;
 			    display: block;
 			    padding: 3em 2em;
+			    color: #e9302a;
 				&:hover {
 					border: 1px solid #ddd;
     				box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    				color: #333;
 				}
 				span {
 					display: block;
@@ -552,6 +562,12 @@ section.tags {
 		li {
 			display: inline-block;
 			margin-right: 10px;
+			a {
+				color: #e9302a;
+				&:hover {
+					color: #333;
+				}
+			}
 			span {
 				font-size: 0.9em;
 				color: #aaa;
